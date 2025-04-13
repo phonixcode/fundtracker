@@ -2,7 +2,7 @@
 
 A Laravel-based command-line tool for managing investment funds and their returns. Easily track, simulate, and backdate fund performance using the power of Laravel Artisan commands.
 
-## 🛠️ Project Setup
+## Project Setup
 
 ### Requirements
 
@@ -16,8 +16,8 @@ A Laravel-based command-line tool for managing investment funds and their return
 1. **Clone the Repository**
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/phonixcode/fundtracker.git
+cd fundtracker
 ```
 
 2. **Install Dependencies**
