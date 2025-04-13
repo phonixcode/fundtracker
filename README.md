@@ -100,9 +100,15 @@ php artisan fund:value-at-date
 | Command        | Description                              |
 |----------------|------------------------------------------|
 | `fund:simulate-returns`  | Simulate returns based on frequency (monthly, quarterly, yearly)             |
+| `fund:simulate-return --preview`  | Preview only             |
+| `fund:simulate-return --date=2025-01-31`  | Backdate a return            |
+| `fund:simulate-return --preview --date=2025-03-31`  | Combine both             |
 
 ```bash
 php artisan fund:simulate-returns
+php artisan fund:simulate-return --preview
+php artisan fund:simulate-return --date=2025-01-31
+php artisan fund:simulate-return --preview --date=2025-03-31
 ```
 
 
