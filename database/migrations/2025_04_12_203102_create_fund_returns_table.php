@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('fund_id')->constrained()->onDelete('cascade');
             $table->date('return_date');
-            $table->enum('frequency', ['monthly', 'quarterly', 'yearly']);
+            $table->string('frequency');
             $table->decimal('percentage', 5, 2);
             $table->boolean('is_compound')->default(true);
             $table->boolean('is_reverted')->default(false);
